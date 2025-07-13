@@ -17,4 +17,4 @@ jobs:
         uses: docker/setup-buildx-action@v2
 
       - name: Build app (no tests)
-        run: docker-compose -f docker-compose.yml build
+        run: docker compose -f docker-compose.yml build
